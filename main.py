@@ -47,9 +47,9 @@ def main(page : Page):
                             ]
                         )
                         )),
-                    Row(width=300,alignment=MainAxisAlignment.END,controls=[TextButton(text="Forgot Password?",style=ButtonStyle(color="white",shape={"":RoundedRectangleBorder(radius=0)}))]),
+                    Row(width=300,alignment=MainAxisAlignment.END,controls=[TextButton(content=(Text("Forgot Password?",font_family="Font2",weight="bold")),style=ButtonStyle(color="white",shape={"":RoundedRectangleBorder(radius=0)}))]),
                     Divider(height=40,color="transparent"),
-                    ElevatedButton(text="Sign In",width=300,style=ButtonStyle(bgcolor=Color2,color="white",shape={"":RoundedRectangleBorder(radius=20)},)),
+                    TextButton(content=(Text("Sign In",font_family="Font2",weight="bold")),width=300,style=ButtonStyle(bgcolor=Color2,color="white",shape={"":RoundedRectangleBorder(radius=20)},)),
                 ],
                 horizontal_alignment=CrossAxisAlignment.CENTER
             )
